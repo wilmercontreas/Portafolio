@@ -4,3 +4,64 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+
+
+/*.fa-angle-right {
+    font-size: 5rem;
+    color: blueviolet;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+.fa-angle-right:hover {
+    transform: rotate(90deg);
+}*/
+
+.inicio {
+    color: white;
+    font-size: 1.3em;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1fb2da;
+    animation-name: color;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+.span--resaltado {
+    color: #ff4500;
+    font-weight: 600;
+}
+
+.boton--normal {
+    font-size: 0.8em;
+    margin-top: 1.5em;
+    border: 1px solid white;
+    background: none;
+    padding: 0.5em;
+    color: white;
+    text-decoration: none;
+}
+
+.info {
+    padding: 1em;
+    text-align: center;
+}
+
+.hr {
+    margin: 1em auto;
+    width: 40%;
+    background-color: #000000;
+    height: 0.1em;
+    border: none;
+}
+
+@keyframes color {
+    50% {
+        background-color: #36d89f;
+    }
+}
