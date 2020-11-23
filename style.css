@@ -142,6 +142,39 @@
     color: black;
 }
 
+footer {
+    margin: 1em 0;
+    width: 100%;
+    text-align: center;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+
+.cuentas {
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    background-color: #ff4500;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 3s;
+}
+
+.fab {
+    font-size: 1.3em;
+    /*transform: rotate(360deg);*/
+}
+
+
+/* animaciones */
+
 @keyframes color {
     25% {
         background-color: #36d89f;
