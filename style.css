@@ -49,12 +49,13 @@
 }
 
 .info {
+    margin-top: 1em;
     padding: 1em;
     text-align: center;
 }
 
 .hr {
-    margin: 1em auto;
+    margin: 2em auto;
     width: 40%;
     background-color: #000000;
     height: 0.1em;
@@ -66,11 +67,58 @@
     height: 13em;
     border-radius: 100%;
     object-fit: cover;
-    margin: 1em 0;
+    margin-bottom: 1em;
 }
 
 .info__descripcion {
     margin: 1em 0;
+}
+
+.habilidades {
+    margin-top: 1em;
+    padding: 1em;
+    text-align: center;
+    background-color: #EBEBEB;
+}
+
+.habilidades__barra {
+    background-color: #ff4500;
+    text-align: left;
+    padding: .4em 1em;
+    margin: 1em 0;
+    border-radius: 0 50px 50px 0;
+    color: white;
+    box-shadow: 3px 3px #888787;
+    font-size: 0.8em;
+    transition: all 1s;
+}
+
+.lenguaje--html {
+    width: 80%;
+}
+
+.lenguaje--css {
+    width: 70%;
+}
+
+.lenguaje--js {
+    width: 50%;
+}
+
+.lenguaje--php {
+    width: 50%;
+}
+
+.lenguaje--mysql {
+    width: 80%;
+}
+
+.lenguaje--java {
+    width: 60%;
+}
+
+.lenguaje--angular {
+    width: 30%;
 }
 
 @keyframes color {
