@@ -48,7 +48,7 @@
     text-decoration: none;
 }
 
-.info {
+.titulo {
     margin-top: 1em;
     padding: 1em;
     text-align: center;
@@ -75,9 +75,6 @@
 }
 
 .habilidades {
-    margin-top: 1em;
-    padding: 1em;
-    text-align: center;
     background-color: #EBEBEB;
 }
 
@@ -119,6 +116,30 @@
 
 .lenguaje--angular {
     width: 30%;
+}
+
+.contacto {
+    background-color: #EBEBEB;
+}
+
+.formulario {
+    margin: 1em;
+}
+
+.input {
+    padding: 0.5 1em;
+    margin: 0.3em 0;
+    border: none;
+    box-shadow: 0 0 5px #ff4500;
+    color: orangered;
+}
+
+.boton--enviar {
+    margin-top: 0.3em;
+    border: 1px solid #ff4500;
+    background: none;
+    padding: 0.5em;
+    color: black;
 }
 
 @keyframes color {
