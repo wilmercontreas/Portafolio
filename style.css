@@ -186,3 +186,115 @@ footer {
         background-color: #500009;
     }
 }
+
+
+/* mediaqueris */
+
+@media screen and (min-width: 480px) {
+    .inicio {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    .info__img {
+        width: 18em;
+        height: 18em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    .info p {
+        font-size: 1.5em;
+    }
+    .info .span--resaltado {
+        font-size: 1.5em;
+    }
+    .habilidades__barra {
+        font-size: 1.2em;
+        box-shadow: 5px 5px #888787;
+    }
+    .contacto p {
+        font-size: 1.5em;
+    }
+    .input {
+        font-size: 1.5em;
+    }
+    .boton--enviar {
+        font-size: 1.5em;
+    }
+    .cuentas {
+        width: 5em;
+        height: 5em;
+    }
+    .fab {
+        font-size: 1.5em;
+    }
+    footer p {
+        font-size: 1.5em;
+    }
+    .hr {
+        margin: 2.5em auto;
+        height: 0.2em;
+    }
+    .titulo {
+        margin-top: 2em;
+        padding: 2em;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hr {
+        margin: 3em auto;
+        width: 30%;
+        height: 0.3em;
+    }
+    .titulo {
+        margin-top: 2em;
+        padding: 3em;
+    }
+    .inicio {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 4em;
+    }
+    .info__img {
+        width: 28em;
+        height: 28em;
+    }
+    h3 {
+        font-size: 3em;
+    }
+    .info p {
+        font-size: 2em;
+    }
+    .info .span--resaltado {
+        font-size: 2em;
+    }
+    .habilidades__barra {
+        padding: 0.6em 1em;
+        margin: 1.2em 0;
+        box-shadow: 5px 5px #888787;
+        font-size: 1.7em;
+    }
+    .contacto p {
+        font-size: 2em;
+    }
+    .input {
+        font-size: 2em;
+    }
+    .boton--enviar {
+        font-size: 2em;
+    }
+    .cuentas {
+        width: 7em;
+        height: 7em;
+    }
+    .fab {
+        font-size: 2em;
+    }
+    footer p {
+        font-size: 2em;
+    }
+}
