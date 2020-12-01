@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -316,6 +317,134 @@ footer {
 }
 
 @media screen and (min-width: 1024px) {
+    .hr {
+        margin: 2em auto;
+        width: 10%;
+        height: .2em;
+    }
+    .titulo {
+        margin-top: 2em;
+        padding: 2em;
+    }
+    .inicio {
+        font-size: 2.3em;
+    }
+    .boton--normal {
+        font-size: .55em;
+        padding: .4em .7em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    .info__img {
+        width: 18em;
+        height: 18em;
+        border: 4px solid #ff4500;
+        margin-bottom: 2em;
+    }
+    h3 {
+        font-size: 1.7em;
+        font-weight: 600;
+    }
+    .info p {
+        font-size: 1.3em;
+    }
+    .info__descripcion {
+        margin: 1em 0 .3em 0;
+    }
+    .info .span--resaltado {
+        font-size: 1.3em;
+    }
+    .habilidades__barra {
+        font-size: 1.2em;
+    }
+    .contacto p {
+        font-size: 1.3em;
+    }
+    .input {
+        font-size: 1.1em;
+    }
+    .boton--enviar {
+        font-size: 1.1em;
+    }
+    .cuentas {
+        width: 5em;
+        height: 5em;
+    }
+    .fab {
+        font-size: 1.5em;
+    }
+    footer p {
+        margin: .7em 0;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1336) {
+    .hr {
+        margin: 2em auto;
+        width: 10%;
+        height: .2em;
+    }
+    .titulo {
+        margin-top: 2em;
+        padding: 2em;
+    }
+    .inicio {
+        font-size: 2.3em;
+    }
+    .boton--normal {
+        font-size: .55em;
+        padding: .4em .7em;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    .info__img {
+        width: 18em;
+        height: 18em;
+        border: 4px solid #ff4500;
+        margin-bottom: 2em;
+    }
+    h3 {
+        font-size: 1.7em;
+        font-weight: 600;
+    }
+    .info p {
+        font-size: 1.3em;
+    }
+    .info__descripcion {
+        margin: 1em 0 .3em 0;
+    }
+    .info .span--resaltado {
+        font-size: 1.3em;
+    }
+    .habilidades__barra {
+        font-size: 1.2em;
+    }
+    .contacto p {
+        font-size: 1.3em;
+    }
+    .input {
+        font-size: 1.1em;
+    }
+    .boton--enviar {
+        font-size: 1.1em;
+    }
+    .cuentas {
+        width: 5em;
+        height: 5em;
+    }
+    .fab {
+        font-size: 1.5em;
+    }
+    footer p {
+        margin: .7em 0;
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1500) {
     .hr {
         margin: 2em auto;
         width: 10%;
