@@ -32,6 +32,10 @@
     text-decoration: none;
 }
 
+.span--resaltado-about {
+    text-decoration: underline;
+}
+
 .boton--normal {
     font-size: 0.8em;
     margin-top: 1.5em;
