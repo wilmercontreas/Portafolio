@@ -16,7 +16,7 @@
     <div class="inicio" id="inicio">
         <img src="" alt="">
         <p>Hello, i'm <span class="span--resaltado">Wilmer Contreras</span>.</p>
-        <p>I'm a full-stack web developer.</p>
+        <p>I'm a Front-end web developer.</p>
         <a href="#info" class="boton--normal">View my work <i class="fas fa-angle-right"></i></a>
     </div>
 
@@ -58,9 +58,9 @@
         <div class="wrapper">
             <p>Have a question or want to work together?</p>
             <div class="formulario">
-                <form action="" method="">
-                    <input type="email" placeholder="Email" class="input"><br>
-                    <textarea class="input" cols="25" rows="10" placeholder="Your Message"></textarea><br>
+                <form action="mail.php" method="POST">
+                    <input name="email" type="email" placeholder="Email" class="input" required><br>
+                    <textarea name="message" class="input" cols="25" rows="10" placeholder="Your Message" required></textarea><br>
                     <input type="submit" value="Submit" class="boton--enviar">
                 </form>
             </div>
